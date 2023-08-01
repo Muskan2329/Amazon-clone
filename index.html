@@ -4,277 +4,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muskan - Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Playfair+Display&family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: 'poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-        nav ul li a{
-            text-decoration:none;
-            color: white;
-        }
-        nav ul li a:hover{
-            
-            color: rgb(153,153,226);
-            font-size: 1.02rem;
-        }
-
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 100px 0;
-
-        }
-
-        .firstSection>div {
-            width: 40%;
-
-        }
-
-        .leftSection {
-
-            font-size: 3rem;
-        }
-        .leftSection .btn{
-padding: 26px 0;
-font-size: 3rem;
-background:#1e2167; 
-color: white;
-border: 2px solid white;
- border-radius: 6px;
- font-size:20px ;
- cursor: pointer;
- margin: 40px 0;
-}
-
-        .rightSection img {
-            width: 90%;
-        }
-
-        .purple {
-            color: rgb(170, 107, 228);
-        }
-        .textgray{
-            color: gray;
-        }
-        #element{
-            color: rgb(170, 107, 228);
-        }
-        .secondSection{
-            margin:auto;
-            max-width: 30vw;
-            height: 80vh;
-        }
-        main hr{
-            border: 0;
-            background: #9c97f1;
-            height:1.2px;
-            margin: 60px 84px;
-        }
-        .secondSection h1{
-font-size: 1.9rem;
-        }
-      .secondSection .Box{
-            background:white;
-            width: 76vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
-        .secondSection .vertical{
-            height: 93px; 
-            width: 1px;
-            background-color: white;
-            margin: 0 140px;
-        
-        }
-        .image-top{
-position: relative;
-width: 23px;
-top: -32px;
-left: -9px;
-        }
-        .vertical-title{ 
-            position: relative;
-            top: 75px;
-            width: 150px;
-font-size: 15px;
-
-        }
-        .vertical-desc{
-position: relative;
-top: 86px;
-color: gray;
-width:150px ;
-font-size: 9px;
-        }
-        footer{
-            
-            background-color: #0e0e1a;
-           
-        }
-        .footer{
-            display:flex ;
-            padding : 23px 122px;
-            justify-content:space-evenly ;
-        }
-        .footer ul{
-            list-style: none;
-        }
-        .footer > div{
-            width: 223px;
-        }
-       footer .footer-rights{
-text-align: center;
-color: gray;
-padding: 12px;
-        }
-    </style>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="left"> Muskan's Portfolio </div>
-            <div class="right">
-                <ul>
-                    <Li><a href="/">Home</a></Li>
-                    <Li><a href="/">About</a></Li>
-                    <Li><a href="/">Services</a></Li> 
-                    <Li><a href="/">Projects</a></Li>
-                    <Li><a href="/">Contact Me</a></Li>
-                </ul>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">Hi,My name is <span class="purple">Muskan</span>
-                <div>and I am a passionate</div>
-         <span id="element"></span>
-<div class="buttons">
-    <button class="btn" >Download Resume</button>
-    <button class="btn"> visitGithub</button>
-</div>
-            </div>
-            <div class="rightSection">
-                <img src="bg.png" alt="">
-            </div>
-        </section>
-        <hr>
-        <section class="secondSection">
-          <span class="textgray">What I have done so far</span>
-            <h1>Projects</h1>
-            <div class="Box">
-                <div class="vertical">
-                    <img class="image-top" src="p1.png" alt="">
-                    <div class="vertical-title">
-                        Personal Portfolio Website
-                        <div>(2023)</div>
-                    </div>
-                    <div class="vertical-desc">
-
-                    </div>
+            <div class="nav-address border">
+                <P class="add-first"> Deliver to</P>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <P class="add-second">India</P>
                 </div>
-                <div class="vertical">
-                    <img class="image-top" src="v1.png" alt="">
-                    <div class="vertical-title">
-                        Amazon clone Webpage
-                        <div>(2023)</div>
-                        
-                    </div>
-                    <div class="vertical-desc">
-
-                    </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="select-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
 
-                <div class="vertical">
-                    <img class="image-top" src="c1.png" alt="">
-                    <div class="vertical-title">
-                        Coal Miner Smart Helmet
-                        <div>(2022-2023)</div>
-                    </div>
-                    <div class="vertical-desc">
-
-                    </div>
-                </div>
-
-                <div class="vertical">
-                    <img class="image-top" src="w1.png" alt="">
-                    <div class="vertical-title">
-                       Weather App
-                       <div>(2022)</div>
-                    </div>
-                    <div class="vertical-desc">
-
-                    </div>
-                </div>
-            
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class=" footer-first"> <h3>Muskan's Developer Portfolio</h3></div>
-            <div class="footer-second"></div>
-            <ul>
-                <Li><a href=""></a></Li>
-                <Li><a href=""></a></Li>
-                <Li><a href=""></a></Li>
-            </ul>
-            <div class="footer-third"></div>
-            <div class="footer-fourth"></div>
+
+            <div class="nav-singin border">
+                <p><span> Hello, sign in</span></p>
+                <P class="nav-second"> Account & Lists</P>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <P class="nav-second"> & Order </P>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
         </div>
-        <div class="footer-rights">
-           Copyright&#169;muskanportfolio.com | All rights reserved
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <P>Today's Deals</P>
+                <P>Customer Service</P>
+                <P>Gift Cards</P>
+                <P>Sell</P>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="hero-msg">
+            <P>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery.<A>Click here to go to amazon.in</A></P>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Clothes</h2>
+                <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-image" style="background-image: url('box2_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>furniture</h2>
+                <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+                <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>Beauty Picks</h2>
+                <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Pet Care</h2>
+                <div class="box-image" style="background-image: url('box6_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>New Arrival in Toys</h2>
+                <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Discover Fashion Trends</h2>
+                <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+                <P>See more</P>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+    <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+            </ul>
+        
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+        <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a> Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                 <a>Privacy Notice</a>  
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyrights">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-     <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer','Video Editor', 'Web Designer','Engineer'],
-      typeSpeed: 50,
-    });
-  </script>
 </body>
 
 </html>
